@@ -1,0 +1,76 @@
+Shortcuts in Pycharm:
+1. To see the recent changes = Alt + Shift + C
+2. To Copy the same statement where the cursor is use Ctrl + D
+3. Beside an incomplete method or statement add # todo to show it in TODO section for future use.
+4. Surround With : Ctrl + ALT + T
+
+Data Types in Python :
+int, float, bool, str, list, tuple, set, dict
+
+Operator Precedence :
+()
+**
+* /
++ -
+
+Constants in Python can be all Capitals
+
+List = it is a collection which is ordered and changeable. Allow duplicate members
+
+Tuple = it is a collection which is ordered and unchangeable. Allow duplicate members
+
+Set = It is a collection which is unordered and unindexed. Does not allow duplicate members
+
+Dict = is a collection which is unordered,changeable and indexed. No duplicate members
+
+Ternary operator :
+Condition_If_True if condition else Condition_If_Else
+
+Iterable : list,tuple, set, dict, string
+
+Enumerate : enumerate() method adds a counter to an iterable and returns it in a form of enumerate object
+
+Base class of Python is object. SO every object inherits properties from Object class.
+
+Object introspection is dir(objName) -> will display all the methods it has access to.
+
+
+map function : map(func,iterable)
+
+Regular Expressions:
+
+
+
+
+
+
+5. famous modules - datetime,calendar,random
+6. To use global variable inside a function, use global variable name
+7. Global scope method will get preference to buitin method if the method name matches
+8. LEGB -> local Enclosed Global Builtin
+9. Slicing list : list[start:end:step]
+10. First class functions : allow us to treat any functions as object. For example we can pass function as arguments to another function,
+we can return function, and we can assign functions to variables.
+
+11. Closures : it allows us to take advantage of first class functions and return an inner function that remembers and has access to
+variables local to the scope in which they were created.
+
+12. Decorator : is a function that takes another function as an argument and adds some kind of functionality and then returns another
+function. It does all of these without altering the source code of the original function.
+
+13. Classes allow us to group our data and functions in a way that is easy to read and use and also to be easy to built upon when
+ever need be. Class is a blueprint for creating instances.
+
+14.Regular methods inside a class take instance as the first argument. So self will be the 1st arg
+
+15. Class methods should have the @classmethod decorator and it takes cls as first argument
+
+16. Static methods should have @staticmethod decorator and this methods should only be created when it has got nothing to do with class
+or instances
+
+17. @Property : a method can be accessed as an attribute without the (), if it has @property decorator
+
+18. public and private variables, we can't achieve privacy in Python unlike java where you can use private. Here developers can use
+_sign while naming variables to show that those variables are private
+
+
